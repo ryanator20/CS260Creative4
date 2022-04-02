@@ -2,7 +2,7 @@
   <div id="app">
     <router-view/>
     <div class="footer my-3 py-5 text-center">
-      <a href="https://github.com/ryanator20/CS260Creative3" target="_blank"><img src="/images/github.png" class="mx-1"></a>
+      <a href="https://github.com/ryanator20/CS260Creative4" target="_blank"><img src="/images/github.png" class="mx-1"></a>
       <a href="https://www.linkedin.com/in/ryan-lee20/" target="_blank"><img src="/images/LI-In-Bug.png" class="mx-1"></a>
     </div>
   </div>
