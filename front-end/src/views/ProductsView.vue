@@ -33,7 +33,7 @@
   </nav>
 
   <h1 class="mx-5 m my-3 pt-3">All Products</h1>
-  <div class="products row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 774px;">
+  <div class="products row">
     <div class="product col-sm-6 col-lg-4 my-3" v-for="product in products" :key="product.id">
       <div class="item">
         <router-link to="/current-product" @click.native="setCurrentProduct(product.id)">
@@ -71,3 +71,4 @@ export default {
   }
 }
 </script>
+

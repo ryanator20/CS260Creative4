@@ -120,5 +120,4 @@ a:visited {
     object-fit: cover;
   }
 }
-
 </style>
