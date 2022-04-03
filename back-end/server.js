@@ -51,7 +51,7 @@ app.post('/api/cart', async (req, res) => {
       await item.save();
       res.send(item);
     } catch (error) {
-      console.log(error);
+      //console.log(error);
       res.sendStatus(500);
     }
   });
@@ -62,7 +62,7 @@ app.post('/api/cart', async (req, res) => {
       let items = await Item.find();
       res.send(items);
     } catch (error) {
-      console.log(error);
+      //console.log(error);
       res.sendStatus(500);
     }
   });
@@ -74,7 +74,7 @@ app.post('/api/cart', async (req, res) => {
       });
       res.send(items);
     } catch (error) {
-      console.log(error);
+      //console.log(error);
       res.sendStatus(500);
     }
   });
@@ -89,7 +89,7 @@ app.post('/api/cart', async (req, res) => {
       await item.save();
       res.send({item:item});
     } catch (error) {
-      console.log(error);
+      //console.log(error);
       res.sendStatus(500);
     }
   });

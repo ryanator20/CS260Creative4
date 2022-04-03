@@ -15,9 +15,9 @@ let data = {
     try{
       await this.getCart();
       let foundItem = this.cart.filter(currProduct => currProduct.id === product.id);
-      console.log(foundItem);
+      //console.log(foundItem);
       if(foundItem.length > 0){
-        console.log("update item to quantity of " + (foundItem[0].quantity + 1));
+        //console.log("update item to quantity of " + (foundItem[0].quantity + 1));
         await this.incrementCartQuantity(foundItem[0]);
       }else{
       await axios.post('/api/cart', {
